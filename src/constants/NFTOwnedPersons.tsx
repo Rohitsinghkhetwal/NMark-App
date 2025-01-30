@@ -48,26 +48,31 @@ export const TopPicksStocks = [
   {
     name: "Roma Avenue",
     price: "40,000",
-    ether: "0.00000043"
+    ether: "0.00000043",
+    backgroundColor: "bg-red-300",
   },
   {
     name: "Atlas Shack",
     price: "50,000",
-    ether: "0.00000073"
+    ether: "0.00000073",
+    backgroundColor: "bg-green-400",
   },
   {
     name: "Germanrin",
     price: "60,000",
-    ether: "0.00000093"
+    ether: "0.00000093",
+    backgroundColor: "bg-sky-400"
   },
   {
     name: "Heavens",
     price: "80,000",
-    ether: "0.000000233"
+    ether: "0.000000233",
+    backgroundColor: "bg-pink-300"
   },
   {
     name: "Heretho",
     price: "440,000",
-    ether: "0.000000413"
+    ether: "0.000000413",
+    backgroundColor:"bg-violet-300"
   }
 ]
