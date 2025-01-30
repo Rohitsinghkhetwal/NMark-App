@@ -1,33 +1,27 @@
-import Yt from "../assets/Yt.png";
-import Vector from "../assets/Vector.png";
-import Frame from "../assets/Frame.png";
-import Frame1 from '../assets/Frame (1).png';
-import Frame2 from "../assets/Frame (2).png";
-import Setting from "../assets/Settng.png";
 
 export const sidebarLinks = [
   {
-    imgUrl: Yt,
+    imgUrl: "/assets/Yt.png",
     route: '/',
   },
   {
-    imgUrl: Vector,
+    imgUrl: "/assets/Vector.png",
     route:"/Home",
   },
   {
-    imgUrl: Frame,
+    imgUrl: "/assets/Frame.png",
     route: "/recent",
   },
   {
-    imgUrl:Frame1,
+    imgUrl:"/assets/Frame (1).png",
     route: '/Work',
   },
   {
-    imgUrl:Frame2,
+    imgUrl:"/assets/Frame (2).png",
     route: '/Calender',
   },
   {
-    imgUrl: Setting,
+    imgUrl: "/assets/Settng.png",
     route: '/Settings'
   }
 ]

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { sidebarLinks } from "../constants/SidebarLinks";
 const Sidebar = () => {
   return (
-    <div className="w-28 min-h-screen p-6 border-2 border-sky-500">
+    <div className="w-28 min-h-screen p-6 border border-sky-500">
       <ul className="space-y-4 pt-[70px]">
         {sidebarLinks.map((items:any, ind:number) => {
           return (
