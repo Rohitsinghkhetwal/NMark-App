@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+🏨 Hotel Listing Web App
+A responsive and dynamic web application for discovering and searching hotel listings. Users can browse properties, filter by name or location, and view key property details such as price, location, and amenities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Property Listings: Display detailed property cards fetched from an external API.
+Search Functionality: Search by property name or location.
+Responsive Design: Optimized for desktop and mobile devices.
+Smooth Loading Experience: Loading indicators for improved user interaction.
+🛠 Tech Stack
+Frontend: React, TypeScript
+Styling: Tailwind CSS
+Environment: Vite
+Data Fetching: Axios
+📦 Installation and Setup
+Follow these steps to run the project locally:
 
-Currently, two official plugins are available:
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone Rohitsinghkhetwal/NMark-App
+cd vite-project
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Set Up Environment Variables
+Create a .env file in the root directory and configure it as follows:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+env
+Copy
+Edit
+VITE_API_URL_DEV=http://your-api-endpoint.com
+4️⃣ Start the Development Server
+bash
+Copy
+Edit
+npm run dev
+The app will be available at:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+bash
+Copy
+Edit
+http://localhost:5173
+💡 How to Contribute
+Fork the repository
+Create a new branch (feature/my-feature)
+Commit your changes
+Push to the branch
+Create a Pull Request
+📝 License
+This project is licensed under MIT.
