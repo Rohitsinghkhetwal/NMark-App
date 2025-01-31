@@ -52,5 +52,8 @@ Create a new branch (feature/my-feature)
 Commit your changes
 Push to the branch
 Create a Pull Request
+
+DEPLOYED LINK IS HERE - https://nmark-app.netlify.app/
+
 📝 License
 This project is licensed under MIT.
