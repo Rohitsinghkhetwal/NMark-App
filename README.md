@@ -20,14 +20,17 @@ Copy
 Edit
 git clone Rohitsinghkhetwal/NMark-App
 cd vite-project
+
+
 2️⃣ Install Dependencies
 bash
 Copy
 Edit
 npm install
+
+
 3️⃣ Set Up Environment Variables
 Create a .env file in the root directory and configure it as follows:
-
 env
 Copy
 Edit

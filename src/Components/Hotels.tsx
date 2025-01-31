@@ -13,7 +13,7 @@ const Hotels = () => {
   const fetchHotels = async() => {
     setLoading(true);
     try {
-      const url:string = import.meta.env.VITE_API_URL_DEV as string;
+      const url:string = import.meta.env.VITE_API_URL_PRODUCTION as string;
       const result = await axios.get(url);
       setdata(result.data);
       setFilteredData(result.data);
@@ -24,7 +24,7 @@ const Hotels = () => {
     }
   }
 
-  // search
+  // Search Funtionality
   const handleSearch = (searchValue: string) => {
     setSearchTerm(searchValue);
     const filtered = data.filter(
@@ -38,12 +38,6 @@ const Hotels = () => {
   useEffect(() => {
     fetchHotels();
   },[]);
-
-  // Filter properties based on search term
-  // const filteredProperties = properties.filter(property =>
-  //   property.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-  //   property.location.toLowerCase().includes(searchTerm.toLowerCase())
-  // );
 
   return (
     <div className="min-h-screen bg-gray-50 p-4">
